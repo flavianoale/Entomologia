@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENTOMON AGRÍCOLA MASTER</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐜 ENTOMON AGRÍCOLA MASTER</h1>
+<h2>Simulador Universitário de Entomologia Agrícola</h2>
+
+<div class="menu">
+<button onclick="loadAtlas()">🔬 Atlas Morfológico</button>
+<button onclick="loadKey()">🗝️ Chave Dicotômica</button>
+<button onclick="loadFamilies()">🧬 Ordens & Famílias</button>
+<button onclick="loadExam()">📝 Simulado Prática</button>
+</div>
+
+<div id="app"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
+</body>
+</html>
