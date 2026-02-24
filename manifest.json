@@ -1,10 +1,9 @@
-
 {
-"name": "Entomon Agricola Master",
-"short_name": "Entomon",
-"start_url": "index.html",
-"display": "standalone",
-"background_color": "#111111",
-"theme_color": "#2ecc71",
-"icons": []
+  "name": "ENTOMON PRO – Simulador Universitário de Entomologia Agrícola",
+  "short_name": "ENTOMON PRO",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#0f766e",
+  "background_color": "#07111a",
+  "icons": []
 }
